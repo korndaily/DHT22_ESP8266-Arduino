@@ -9,8 +9,8 @@ DHT dht(DHTPIN, DHTTYPE);
 String temp;
 String humi;
 
-const char* ssid     = "kerkorn";
-const char* password = "0838393616";
+const char* ssid     = "ssid";
+const char* password = "password";
 
 const char* host = "maker.ifttt.com"; // only google.com not https://google.com
 
@@ -54,7 +54,7 @@ void loop() {
   }
 
   // We now create a URI for the request
-  String url = "/trigger/DHT_Big_Data/with/key/dDd9vXk2pUHvLWjupXrpNH";
+  String url = "/trigger/YOUR EVENT NAME HERE/with/key/YOUR KEY HERE";
   
   float humidity = dht.readHumidity(); // ดึงค่าความชื้น
   float temperature = dht.readTemperature(); // ดึงค่าอุณหภูมิ
