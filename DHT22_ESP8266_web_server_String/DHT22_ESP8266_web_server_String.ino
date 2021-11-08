@@ -8,8 +8,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "kerkorn";  // Enter SSID here
-const char* password = "0838393616";  //Enter Password here
+const char* ssid = "ssid";  // Enter SSID here
+const char* password = "password";  //Enter Password here
 
 IPAddress local_IP(192, 168, 1, 200);
 IPAddress gateway(192, 168, 1, 1);
